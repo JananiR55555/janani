@@ -1,0 +1,15 @@
+marks = int(input("enter your marks"))
+if 91 <= marks <= 100:
+    print("Scored A grade")
+elif 81 <= marks <= 90:
+    print("Scored B grade")
+elif 71 <= marks <= 80:
+    print("Scored C grade")
+elif 61 <= marks <= 70:
+    print("Scored D grade")
+elif 51 <= marks <= 60:
+    print("Scored E grade")
+elif 0 <= marks <= 50:
+    print("Failed")
+else:
+    print("Invalid marks entered")
